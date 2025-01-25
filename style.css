@@ -1,0 +1,134 @@
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #f0f8ff;
+     color: #2c3e50;
+     padding: 0;
+     margin: 0;
+ }
+
+ /* header section styling starts  */
+ header {
+     text-align: center;
+     background-color: #34495e;
+     color: #ecf0f1;
+     font-size: 1.4rem;
+     padding: 2px;
+     margin-bottom: 10px;
+ }
+
+ header h1 {
+     margin-bottom: 3px;
+ }
+ header p {
+     margin-top: 0;
+ }
+ /* header section styling ends  */
+ main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+ #stu-form,
+ #display-section {
+     height: 60vh;
+     padding: 20px;
+     border-radius: 8px;
+     background: #ffffff;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ #display-section {
+     width: 55vw;
+ }
+
+ /* form stling starts */
+ form {
+     display: flex;
+     flex-direction: column;
+     width: 30vw;
+     gap: 5px;
+ }
+ form label{
+    font-size: 1.1rem;
+    color:#34495e ;
+    font-weight: bold;
+ }
+ form input{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #bdc3c7;
+    background-color: #ecf0f1;
+    font-size: 1.1rem;
+
+ }
+ form button{
+    font-size: 1.1rem;
+    margin-top: 7px;
+    padding: 7px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #2c3e50;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+ form button:hover{
+    background-color: #1f618d;
+ }
+
+ #stu-form {
+     width: 35vw;
+     display: flex;
+     justify-content: center;
+ }
+ /* form styling ends */
+
+ /* Display table styling starts */
+
+ table {
+     border-collapse: collapse;
+     height: 50%;
+ }
+
+ table th,table td {
+     border: 1px solid #bdc3c7;
+     padding: 10px;
+     text-align: left;
+     border-radius: 5px;
+ }
+ table th{
+    color: #ffffff;
+    background-color:#34495e ;
+ }
+
+ .records {
+     max-height: 300px;
+     overflow: auto;
+ }
+  /*Display  table styling ends */
+  
+ /* Edit and delete button styling  starts*/
+ .edit ,.delete {
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+
+ }
+ .edit{
+    background-color:  #27ae60; 
+    color: #f0f8ff;
+ }
+ .delete{
+    background-color:#e74c3c ;
+    color: #f0f8ff;
+ }
+ .edit:hover{
+background-color:#1f618d;
+
+ }
+ .delete:hover{
+background-color: #1f618d;
+ }
+ /* Edit and delete button styling  ends*/

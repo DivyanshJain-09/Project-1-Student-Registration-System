@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!--  HEADING STARTS -->
+    <header> 
+         <h1>Student Registration System </h1>
+         <p> An intutive solution to handle all Student Details.</p>
+    </header>
+    
+    <!--  HEADING ENDS -->
+     <main>
+         <!--  FORM SECTION STARTS -->
+         <section id="stu-form">
+            <form action="">
+             <label for="stu-name">Student's Name :</label>
+             <input type="text" id="stu-name" placeholder="Enter Student's Name" required>
+             <label for="stu-id">Student's ID :</label>
+             <input type="number" id="stu-id" placeholder="Enter Id" required>
+             <label for="stu-class">Class :</label>
+             <input type="text" id="stu-class" placeholder="Enter Class" required>
+             <label for="stu-phone">Phone-Number :</label>
+             <input type="number" id="stu-phone" placeholder="Enter Phone-Number"  maxlength="10" title="Enter 10 Digit Phone-Number" required>
+             <label for="stu-email">Email :</label>
+             <input type="email" id="stu-email" placeholder="Enter Email Address" required>
+             <button> Register Student</button>
+            </form>
+         
+         </section>
+       <!--  FORM SECTION ENDS -->
+         <!-- DISPLAY Records SECTION STARTS -->
+          <section id="display-section">
+           <div class="records">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student's Name:</th>
+                        <th>Student's ID:</th>
+                        <th>Class:</th>
+                        <th>Phone-Number:</th>
+                        <th>Email:</th>
+                        <th>Actions:</th>
+                    </tr>
+                </thead>
+                <tbody id="stu-records"></tbody>
+            </table>
+           </div>
+          </section>
+         <!-- DISPLAY Records SECTION ENDS -->
+     </main>
+   
+    
+</body>
+</html>
